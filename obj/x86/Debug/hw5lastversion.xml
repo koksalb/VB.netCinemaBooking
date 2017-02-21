@@ -1,0 +1,108 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+hw5lastversion
+</name>
+</assembly>
+<members>
+<member name="M:hw5lastversion.MainForm.InitializeGUI">
+	<summary>
+ Bring everything at the default position.
+ </summary>
+</member><member name="M:hw5lastversion.MainForm.CheckSelectedIndex">
+	<summary>
+ Checks if any item is checked from the listbox or not.
+ </summary>
+</member><member name="M:hw5lastversion.MainForm.ReserveSeat">
+	<summary>
+ reserve seat function
+ </summary>
+</member><member name="M:hw5lastversion.MainForm.CalcelSeat">
+	<summary>
+ cancel seat function
+ </summary>
+</member><member name="M:hw5lastversion.MainForm.ReadAndValidateInput(System.String@,System.Double@)">
+	<summary>
+ reads input information both if valid or not
+ </summary>
+</member><member name="M:hw5lastversion.MainForm.ReadAndValidateName(System.String@)">
+	<summary>
+ validates name is it is numeric or not or empty string or not. this part works perfectly. Berkay6 is okay 6Berkay is okay but 666 is not okay. the name cannot be numeric only!
+ </summary>
+</member><member name="M:hw5lastversion.MainForm.ReadAndValidatePrice(System.Double@)">
+	<summary>
+ checks if the price can be parsed into double. if yes is it greater than zero. if not that is a problem
+ </summary>
+</member><member name="M:hw5lastversion.MainForm.UpdateGUI">
+	<summary>
+ Updates the user interface forum with everything.
+ </summary>
+</member><member name="M:hw5lastversion.MainForm.rbtnReserved_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ when radiobutton reserve is checked the button will say Reserve
+ </summary>
+</member><member name="M:hw5lastversion.MainForm.rbtnCancel_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ when cancel is selected the button will say Cancel
+ </summary>
+</member><member name="M:hw5lastversion.MainForm.lstReservation_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ When user chooses any item from the listbox. this function will seperate the whole item into strings and put them inside operands(). operands(1) keeps the seat number of each columb element
+ </summary>
+</member><member name="M:hw5lastversion.MainForm.cmbDisplayOptions_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ when you change the item it will automaticly update the form
+ </summary>
+</member><member name="M:hw5lastversion.MainForm.CheckIfSeatAlreadyReserved">
+	<summary>
+ operands is the strings of elements from the listbox. operands(2) keeps the reservation status. it can be Reserved or Vacant. if it is vacant this function will give you the error.
+ </summary>
+</member><member name="M:hw5lastversion.SeatManager.CheckIndex(System.Int32)">
+	<summary>
+ check input if it is inside the array size or not
+ </summary>
+</member><member name="M:hw5lastversion.SeatManager.ReserveSeat(System.String,System.Double,System.Int32)">
+	<summary>
+ reserve seat function with incoming informations as byval
+ </summary>
+</member><member name="M:hw5lastversion.SeatManager.CancelSeat(System.Int32)">
+	<summary>
+ cancel seat will change the name to empty string and price to 0.0 just like the default values
+ </summary>
+</member><member name="M:hw5lastversion.SeatManager.GetNumReserved">
+	<summary>
+ gets the number of reserved seats and puts it into an integer called "sum"
+ </summary>
+</member><member name="M:hw5lastversion.SeatManager.GetNumVacant">
+	<summary>
+ by substracting reserved seats from the total seat number we have this. so no need to put loops inside this one like previous one
+ </summary>
+</member><member name="M:hw5lastversion.SeatManager.GetNumOfSeats(hw5lastversion.DisplayOptions)">
+	<summary>
+ takes number of seats according to your option. if it is all seats then it will take them all if not it will act like that
+ </summary>
+</member><member name="M:hw5lastversion.SeatManager.GetSeatInfoStrings(hw5lastversion.DisplayOptions,System.String[]@)">
+	<summary>
+ returns to nuumber of seats in the end. but this function generates the string array which we will add into the listbox. with the string format and everything
+ </summary>
+</member><member name="T:hw5lastversion.DisplayOptions">
+	<summary>
+ my enum choices
+ </summary>
+</member><member name="P:hw5lastversion.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:hw5lastversion.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:hw5lastversion.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

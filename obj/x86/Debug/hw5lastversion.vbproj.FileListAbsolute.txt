@@ -1,0 +1,9 @@
+C:\Users\Berkay\Desktop\final\hw5lastversion\hw5lastversion\obj\x86\Debug\hw5lastversion.MainForm.resources
+C:\Users\Berkay\Desktop\final\hw5lastversion\hw5lastversion\obj\x86\Debug\hw5lastversion.Resources.resources
+C:\Users\Berkay\Desktop\final\hw5lastversion\hw5lastversion\obj\x86\Debug\hw5lastversion.vbproj.GenerateResource.Cache
+C:\Users\Berkay\Desktop\final\hw5lastversion\hw5lastversion\bin\Debug\hw5lastversion.exe
+C:\Users\Berkay\Desktop\final\hw5lastversion\hw5lastversion\bin\Debug\hw5lastversion.pdb
+C:\Users\Berkay\Desktop\final\hw5lastversion\hw5lastversion\bin\Debug\hw5lastversion.xml
+C:\Users\Berkay\Desktop\final\hw5lastversion\hw5lastversion\obj\x86\Debug\hw5lastversion.exe
+C:\Users\Berkay\Desktop\final\hw5lastversion\hw5lastversion\obj\x86\Debug\hw5lastversion.xml
+C:\Users\Berkay\Desktop\final\hw5lastversion\hw5lastversion\obj\x86\Debug\hw5lastversion.pdb
